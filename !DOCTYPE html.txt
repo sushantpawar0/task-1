@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stationery Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">Stationery Shop</h1>
+            <nav>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h1>Welcome to Our Stationery Shop!</h1>
+            <p>Find the best stationery items for your office and school needs.</p>
+            <a href="#products" class="btn">Shop Now</a>
+        </div>
+    </section>
+
+    <section id="products">
+        <div class="container">
+            <h2>Featured Products</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="https://5.imimg.com/data5/SELLER/Default/2022/5/NI/MM/DQ/11585268/spiral-premium-notebook-1000x1000.png" alt="Notebook">
+                    <h3>Notebook</h3>
+                    <p>RS50 </p>
+                </div>
+                <div class="product-card">
+                    <img src="https://m.media-amazon.com/images/I/411WlsFWztL._SX300_SY300_QL70_FMwebp_.jpg" alt="Pen">
+                    <h3>Pen</h3>
+                    <p>RS10 </p>
+                </div>
+                <div class="product-card">
+                    <img src="https://media.istockphoto.com/id/1421873157/vector/simple-red-blue-eraser-illustration-office-element-stationery-and-art-school-supply-blue-red.webp?s=2048x2048&w=is&k=20&c=Np6JVcPPT3x0KYRQOyfPpToZT2c9CtY0En6QpKxF5a4=" alt="Eraser">
+                    <h3>Eraser</h3>
+                    <p>RS 5  </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are passionate about providing the best stationery items for all your needs. Our products are of high quality and affordable prices.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Stationery Shop. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
